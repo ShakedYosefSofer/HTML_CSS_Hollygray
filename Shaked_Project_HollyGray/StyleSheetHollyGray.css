@@ -1,0 +1,161 @@
+﻿body {
+}
+
+div {
+
+    border:solid 1px white;
+
+}
+
+#background {
+    width: 80%;
+    margin: 10% auto;
+    height:80%;
+    background-color: blue;
+}
+
+#top {
+    height: 100px;
+    width: 100%;
+    margin: -2px -1px;
+
+}
+
+#linksTop {
+      
+    text-align:center;
+   width:100%;
+   margin:4%;
+}
+
+a:hover{
+
+    background-color:greenyellow ;
+    color:red;
+}
+
+.linkT {
+    padding:0px 5%;
+    background-color:aqua;
+    color:black;
+}
+
+#top .fas-fa-bars  {
+    display:none;
+    width: 50px;
+    height: 50px;
+    margin: 20px -70px;
+    
+}
+h2 {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    #icon .fas-fa-bars {
+        display: block;
+    position:absolute;
+    }
+}
+
+#top #icon:hover h2 {
+    display:flex;
+    flex-direction:column;
+
+}
+
+
+#myPic {
+    background-image: url('Img/MyPic.JPG');
+    float: left;
+    width: 99px;
+    height: 100px;
+    background-color: black;
+    
+}
+
+.pic {
+    width: 100px;
+    height: 99%;
+}
+
+#left{
+    float:left;
+    height:501px;
+    width:20%;
+    margin:0px -7.7%;
+}
+
+#linksLeft {
+    position: absolute;
+    width:100px;
+    height:100px;
+    
+    margin:auto;
+}
+
+.pic1, .pic2, .pic3 {
+    padding: 3% 5%;
+    width: 100px;
+    border: solid 3px gray;
+}
+
+.pic1 {
+
+}
+
+.pic2 {
+}
+
+
+.pic3 {
+}
+
+
+
+.linkL {
+    background-color: aqua;
+    color: black;
+}
+.picGallery {
+
+    padding:3% 5%;
+    width:100px;
+    border:solid 3px gray;
+
+}
+
+#centerLeft {
+    float: left;
+    width: 20%;
+    height: 500px;
+    text-align:center;
+    text-align:center;
+    color:snow;
+    margin:0px 7.7%;
+}
+
+#centerRight {
+    float: left;
+    width: 44.5%;
+    height: 500px;
+    color: snow;
+    margin:0px -7.8%;
+}
+
+#right {
+    float: right;
+    width: 15.6%;
+    height: 500px;
+    text-align: center;
+    margin:0px -3px;
+    color: snow;
+}
+
+
+#footer {
+    margin: -1px ;
+    width:100%;
+    height: 100px;
+    clear: both
+}
